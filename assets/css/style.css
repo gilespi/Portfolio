@@ -703,6 +703,10 @@ section .container {
 .services .icon-box:hover {
   background: #3597e8;
   border-color: #3597e8;
+  background: linear-gradient(to right, #3597e8 50%, rgba(204, 204, 204, 0.1) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .7s ease-out;
 }
 
 .services .icon-box:hover .icon {
